@@ -7,7 +7,7 @@
     tools:context="com.example.maham.assignment2.splashscreen">
 
     <ImageView
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/logo"/>
 </LinearLayout>
