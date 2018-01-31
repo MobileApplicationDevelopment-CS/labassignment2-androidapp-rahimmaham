@@ -23,6 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".signup" />
+        <activity android:name=".mainpage"></activity>
     </application>
 
 </manifest>
