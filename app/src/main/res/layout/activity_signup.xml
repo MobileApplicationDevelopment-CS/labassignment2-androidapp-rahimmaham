@@ -6,67 +6,76 @@
     android:layout_height="match_parent"
     tools:context="com.example.maham.assignment2.signup">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="50dp"
-        app:layout_goneMarginRight="50dp"
-        android:layout_marginTop="150dp"
-        android:paddingRight="50dp"
         android:orientation="vertical"
-        >
+        android:paddingRight="50dp"
+        app:layout_goneMarginRight="50dp">
 
-    <!--            <TextView
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="208dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+        <!--            <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:text="User Name"
                     android:foregroundGravity="left"/>-->
 
 
-    <EditText
-        android:layout_width="200dp"
-        android:paddingLeft="45dp"
-        android:layout_marginLeft="50dp"
-        android:layout_height="wrap_content"
-        android:foregroundGravity="right"
-        android:hint="User Name" />
-
-    <EditText
-        android:paddingLeft="50dp"
-        android:layout_width="200dp"
-        android:layout_marginLeft="50dp"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:hint="Password"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:foregroundGravity="right"
+            android:hint="User Name"
+            android:paddingLeft="45dp" />
 
         <EditText
-            android:paddingLeft="60dp"
             android:layout_width="200dp"
-            android:layout_marginLeft="50dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="50dp" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             android:hint="Email"
-            android:inputType="textEmailAddress"/>
+            android:inputType="textEmailAddress"
+            android:paddingLeft="60dp" />
+
         <EditText
-            android:paddingLeft="30dp"
             android:layout_width="200dp"
-            android:layout_marginLeft="50dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             android:hint="Contact Number"
-            android:inputType="phone"/>
+            android:inputType="phone"
+            android:paddingLeft="30dp" />
 
 
-    <Button
+        <Button
 
-        android:id="@+id/signup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="30dp"
-        android:textColor="#ffffff"
-        android:background="@drawable/mybutton"
-        android:text="Sign Up"
-        />
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutton"
+            android:padding="10dp"
+            android:text="Sign Up"
+            android:textColor="#ffffff" />
 
     </LinearLayout>
 
